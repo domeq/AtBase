@@ -26,4 +26,16 @@ class Module
             ),
         );
     }
+
+    /**
+     * @return array
+     */
+    public function getControllerPluginConfig()
+    {
+        return array(
+            'invokables' => array(
+                'backTo' => 'AtBase\Mvc\Controller\Plugin\BackTo'
+            ),
+        );
+    }
 }

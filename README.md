@@ -1,6 +1,6 @@
 # AtBase
 
-Version 1.0.1
+Version 1.0.2-dev
 
 AtBase is a [Zend Framework 2](http://framework.zend.com) module which provides an extra ZF2 library.
 
