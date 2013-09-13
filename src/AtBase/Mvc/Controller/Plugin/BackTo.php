@@ -5,9 +5,6 @@ namespace AtBase\Mvc\Controller\Plugin;
 use Zend\Mvc\Controller\Plugin\AbstractPlugin;
 use Zend\Session\Container;
 
-/**
- *
- */
 class BackTo extends AbstractPlugin
 {
     /**
@@ -98,7 +95,7 @@ class BackTo extends AbstractPlugin
     /**
      *
      */
-    public function goBack($message = null)
+    public function previous($message = null)
     {
         // Return if it is ajax request
         if ($this->getController()->getRequest()->isXmlHttpRequest()) {
